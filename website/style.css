@@ -5,7 +5,11 @@
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
     background-color: #1F2937;
+    padding: 1% 15% 5% 15%;
 }
 
 .header h1 {
@@ -14,7 +18,7 @@
 
 .nav-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -24,12 +28,47 @@
 
 .links {
     display: flex;
-    gap: 16px;
+    gap: 64px;
 }
 
-.link {
+.link, .hero-text{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-banner {
+    display: flex;
+    align-items: center;
+    gap: 128px
+}
+
+.right-content {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.hero-header {
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 4px 32px 4px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 16px;
 }
 
 a {
