@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header h1 {
+    color: #F9FAF8;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
