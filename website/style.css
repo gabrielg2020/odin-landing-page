@@ -160,6 +160,14 @@
     margin: 0px;
 }
 
+.footer {
+    padding: 3% 5% 3% 5%;
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-weight: 200;
+}
+
 a {
     text-decoration: none;
 }
