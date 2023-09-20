@@ -110,6 +110,27 @@
     text-align: center;
 }
 
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 18% 5% 18%;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 32px;
+}
+
+.quote-by {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
 }
