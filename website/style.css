@@ -12,7 +12,7 @@
     padding: 1% 15% 5% 15%;
 }
 
-.header h1 {
+.header h1, .call-to-action-header {
     color: #F9FAF8;
 }
 
@@ -129,6 +129,35 @@
     align-self: flex-end;
     font-size: 24px;
     font-weight: 500;
+}
+
+.call-to-action {
+
+    padding: 5% 20% 5% 20%;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 3% 5% 3% 5%;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+}
+
+.call-to-action-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.sign-up-btn {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin: 0px;
 }
 
 a {
